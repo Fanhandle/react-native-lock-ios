@@ -136,7 +136,7 @@
 }
 
 - (void)logout {
-    [self.lock logout]
+    [self.lock clearSessions]
 }
 
 @end
