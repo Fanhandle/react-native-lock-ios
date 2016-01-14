@@ -91,4 +91,8 @@ RCT_EXPORT_METHOD(show:(NSDictionary *)options callback:(RCTResponseSenderBlock)
     });
 }
 
+RCT_EXPORT_METHOD(logout) {
+    [[A0LockReact sharedInstance] logout];
+}
+
 @end

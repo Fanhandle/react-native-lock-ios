@@ -21,6 +21,11 @@ class Auth0Lock {
     }
     LockModule.show(options, callback);
   }
+
+  logout() {
+    LockModule.init(this.lockOptions);
+    LockModule.logout();
+  }
 }
 
 module.exports = Auth0Lock;
