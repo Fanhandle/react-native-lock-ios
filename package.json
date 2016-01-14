@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "description": "Auth0 Lock for React Native (iOS)",
   "main": "auth0-lock.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
