@@ -35,3 +35,5 @@ node_modules/
 
 #Auth0
 Auth0.plist
+
+.idea
