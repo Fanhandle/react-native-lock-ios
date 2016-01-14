@@ -35,6 +35,8 @@ typedef void(^A0LockCallback)(NSArray *parameters);
 
 - (void)configureLockWithClientId:(NSString *)clientId domain:(NSString *)domain;
 
+- (void)logout;
+
 + (instancetype)sharedInstance;
 
 @end

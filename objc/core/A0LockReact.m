@@ -134,4 +134,9 @@
 - (BOOL)booleanValueOf:(id)value defaultValue:(BOOL)defaultValue {
     return value != nil ? [value boolValue] : defaultValue;
 }
+
+- (void)logout {
+    [self.lock logout]
+}
+
 @end
